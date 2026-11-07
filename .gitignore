@@ -1,0 +1,23 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyCharm / IDE 配置
+.idea/
+*.iml
+
+# 模型权重与训练产物
+*.pth
+*.pt
+*.ckpt
+experiments/
+results/
+tb_logger/
+
+# 数据集（仅保留说明文件）
+datasets/*/
+!datasets/README.md
+
+# 系统文件
+.DS_Store
